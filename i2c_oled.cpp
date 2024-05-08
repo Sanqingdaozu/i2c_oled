@@ -4,8 +4,8 @@
 #include "genshin.h"
 #include <cstdint>
 
-DigitalOut OLED_SCL(D3);
-DigitalOut OLED_SDA(D4);
+DigitalOut OLED_SCL(D4);
+DigitalOut OLED_SDA(D5);
 
 uint8_t buffer[144][8];
 
